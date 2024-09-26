@@ -1,0 +1,57 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: white; 
+    color: #333; 
+  }
+  
+  h1, h2 {
+    font-family: 'Stick No Bills', sans-serif;
+    color: #222;
+  }
+  
+  .main-nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .main-nav ul li {
+    margin-right: 20px;
+  }
+  
+  .main-nav ul li a {
+    color: #0056b3; 
+    text-decoration: none;
+  }
+  
+  .main-nav ul li a:focus, 
+  .main-nav ul li a:hover {
+    background-color: #0056b3;
+    color: #fff; 
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  form button {
+    background-color: #0056b3;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  form button:hover, form button:focus {
+    background-color: #003d80;
+  }
+  
+  .site-footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
